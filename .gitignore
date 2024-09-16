@@ -1,0 +1,33 @@
+# Ignore files related to the build
+[Bb]in/
+[Oo]bj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and VSCode IDE-specific folders
+.idea/
+.vscode/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Ignore logs, database files, and application insights
+*.log
+*.tlog
+*.db
+*.pdb
+AppInsights.config
+
+# ASP.NET Scaffolding files
+.scaffolding
+
+# StyleCop folder
+stylecop.json
