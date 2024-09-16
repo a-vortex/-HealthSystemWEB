@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DvTVtdvKmpQ=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\W514285\\source\\repos\\HealthSystemWEB\\HealthSystemWEB\\HealthSystemWEB.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://pkgs.dev.azure.com/WEXHealthTech/Health/_packaging/cdh-fileimport-packages/nuget/v3/index.json.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    }
+  ]
+}
